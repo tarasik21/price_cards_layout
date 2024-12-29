@@ -27,45 +27,36 @@ html {
   color: white;
   height: 770px;
   text-align: center;
+  padding: 32px 0;
+  border-radius: 8px;
 }
 .price-card__title {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   height: 67px;
   line-height: 1.5;
   margin-bottom: 31px;
-  margin-top: 32px;
-  padding: 0;
 }
 .price-card__title--big {
-  font-family: Montserrat;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
-  line-height: 42.67px;
+  line-height: 30px;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .price-card__title--small {
-  font-family: Montserrat;
   font-size: 20px;
   font-weight: 300;
-  line-height: 24.38px;
+  line-height: 24px;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .price-card__price {
   font-size: 55px;
   height: 105px;
   color: #fff;
-  background-color: inherit;
   margin: 0;
   border-radius: 5px;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,26 +72,23 @@ html {
   background-color: #ec632a;
 }
 .price-card__describe {
-  margin: 40px 22px;
-  font-family: Montserrat;
-  font-weight: 400;
-  line-height: 18.29px;
+  margin: 20px 22px;
   font-size: 15px;
+  line-height: 1.5;
   text-align: center;
 }
 .price-card__options-list {
   list-style: none;
   padding: 0;
-  margin: 0;
-  font-weight: 300;
-  text-align: left;
+  margin: 20px 0;
   font-size: 15px;
+  font-weight: 300;
 }
 .price-card__options-list li {
   display: flex;
   align-items: center;
-  gap: 22px;
-  padding-left: 22px;
+  gap: 10px;
+  padding: 10px 22px;
   height: 50px;
 }
 .price-card__options-list li.price-card__options-list-odd {
@@ -111,7 +99,6 @@ html {
 }
 .price-card__button {
   color: #fff;
-  font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
   height: 40px;
@@ -119,8 +106,9 @@ html {
   border: none;
   border-radius: 20px;
   margin: 40px auto 0;
-  text-align: center;
-  line-height: 17.07px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .price-card__button--basic {
   background-color: #5bb189;
