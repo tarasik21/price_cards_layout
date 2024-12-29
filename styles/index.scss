@@ -1,6 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
   }
+html{
+    box-sizing: border-box;
+    background-color: #141b1d;
+}
   
   .price {
     &-page {
@@ -9,8 +13,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       min-height: 100vh;
-      background-color: #141b1d;
-      padding: 20px;
+      padding: 0;
   
       &__container {
         display: flex;
