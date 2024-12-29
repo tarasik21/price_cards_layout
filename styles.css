@@ -37,7 +37,7 @@ body {
   text-decoration-skip-ink: none;
   font-size: 15px;
 }
-.price-card__features {
+.price-card__options-list {
   list-style: none;
   padding: 0;
   gap: 0px;
@@ -49,17 +49,17 @@ body {
   text-decoration-skip-ink: none;
   font-size: 15px;
 }
-.price-card__features li {
+.price-card__options-list li {
   display: flex;
   align-items: center;
   gap: 10px;
   padding-left: 22px;
 }
-.price-card__features-odd {
+.price-card__options-list-odd {
   background-color: rgba(42, 52, 56, 0.5);
   height: 50px;
 }
-.price-card__features-even {
+.price-card__options-list-even {
   background-color: rgba(31, 61, 99, 0);
   height: 50px;
 }
