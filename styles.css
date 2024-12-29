@@ -18,13 +18,11 @@ body {
   justify-content: center;
 }
 .price-card {
-  max-width: 380px;
+  width: 380px;
   background-color: #334247;
   color: white;
   height: 770px;
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 31px;
 }
 .price-card__title {
   display: flex;
@@ -35,6 +33,8 @@ body {
   margin: 0 auto 20px;
   height: 100px;
   line-height: 1.5;
+  padding-bottom: 31px;
+  padding-top: 32px;
 }
 .price-card__title--big {
   font-family: Montserrat;
@@ -59,7 +59,7 @@ body {
   height: 105px;
   color: #fff;
   background-color: inherit;
-  margin: 31px 0 0;
+  margin: 0;
   border-radius: 5px;
   width: 100%;
   display: flex;
