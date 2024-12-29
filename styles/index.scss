@@ -1,168 +1,144 @@
 body {
     font-family: 'Montserrat', sans-serif;
   }
-  .price{
+  
+  .price {
     &-page {
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        flex-wrap: wrap; 
-        min-height: 100vh;
-        background-color: #141b1d; 
-        padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      min-height: 100vh;
+      background-color: #141b1d;
+      padding: 20px;
+  
       &__container {
-        display: flex; 
-        gap: 20px; 
-        flex-wrap: wrap; 
-        justify-content: center; 
-        gap: 20px; 
+        display: flex;
+        gap: 20px;
         flex-wrap: wrap;
+        justify-content: center;
       }
     }
-
-      &-card {
-        max-width: 380px; 
-        background-color: #334247; 
-        color: white;
-        border-radius: 8px; 
+  
+    &-card {
+      max-width: 380px;
+      background-color: #334247;
+      color: white;
+      height: 770px;
+      text-align: center;
+      padding-top: 32px;
+      padding-bottom: 31px;
+      border-radius: 8px;
+  
+      &__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
-        padding-top: 32px;
-        &__describe{
-            margin: 40px 26px;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 18.29px;
-            text-align: center;
-            text-underline-position: from-font;
-            text-decoration-skip-ink: none;
-            font-size: 15px;
-
+        margin: 0 auto 20px; 
+        height: 100px; 
+        line-height: 1.5; 
+  
+        &--big {
+          font-family: Montserrat;
+          font-size: 25px;
+          font-weight: 700;
+          margin: 0; 
         }
-        
-        &__options-list{
-            list-style: none; 
-            padding: 0;
-            gap: 0px;
-            opacity: 0px;
-            margin: 20px 0;
-            font-weight: 300;
-
-
-            text-align: left;
-            text-underline-position: from-font;
-            text-decoration-skip-ink: none;
-            font-size: 15px;
-            li {
-                display: flex; 
-                align-items: center; 
-                gap: 22px; 
-                padding-left: 22px ;
-              }
-            
-            &-odd{
-                background-color: rgba(42, 52, 56, 0.5);
-                height: 50px;
-            }
-            &-even{
-                background-color: rgba(31, 61, 99, 0);
-                height: 50px;
-            }
+  
+        &--small {
+          font-family: Montserrat;
+          font-size: 20px;
+          font-weight: 300;
+          margin: 0; 
+        }
+      }
+  
+      &__price {
+        font-size: 55px;
+        height: 105px;
+        color: #fff;
+        background-color: inherit;
+        margin: 31px 0 0;
+        border-radius: 5px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+  
+        &--basic {
+          background-color: #5bb189;
+        }
+  
+        &--business {
+          background-color: #3a6ba5;
+        }
+  
+        &--webshop {
+          background-color: #ec632a;
+        }
+      }
+  
+      &__describe {
+        margin: 40px 26px;
+        font-family: Montserrat;
+        font-weight: 400;
+        line-height: 18.29px;
+        font-size: 15px;
+        text-align: center;
+      }
+  
+      &__options-list {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        font-weight: 300;
+        text-align: left;
+        font-size: 15px;
+  
+        li {
+          display: flex;
+          align-items: center;
+          gap: 22px;
+          padding-left: 22px;
+          height: 50px;
+  
+          &.price-card__options-list-odd {
+            background-color: rgba(42, 52, 56, 0.5);
           }
-        &__price{
-            font-size: 55px;
-            height: 105px;
-            color: #fff; 
-            text-align: center; 
-            background-color: inherit;
-            padding: 0; 
-            margin: 0; 
-            border-radius: 5px; 
-            width: 100%; 
-            font-weight: 700;
-            margin-top: 31px;
-            display: flex;
-            align-items: center; 
-            justify-content: center; 
-
-
-            
-            &--basic  {
-                background-color: #5BB189; 
-              }
-              &--business {
-                background-color: #3A6BA5; 
-              }
-              &--webshop {
-                  background-color: #EC632A; 
-                }
-
+  
+          &.price-card__options-list-even {
+            background-color: rgba(31, 61, 99, 0);
+          }
         }
-        &__title{
-            width: auto; 
-            height: auto; 
-            top: unset; 
-            left: unset; 
-            opacity: 1; 
-
-
-            
-            &--big{
-                font-family: Montserrat;
-                font-size: 25px;
-                font-weight: 700;
-                line-height: 30.48px;
-                text-align: center;
-                text-underline-position: from-font;
-                text-decoration-skip-ink: none;
-            }
-            &--small{
-                font-family: Montserrat;
-                font-size: 20px;
-                font-weight: 300;
-                line-height: 24.38px;
-                text-align: center;
-                text-underline-position: from-font;
-                text-decoration-skip-ink: none;
-                display: block;
-            }
-    }
-        &__button{
-            color: #fff;
-            width: 95px;
-            top: 11px;
-            left: 30.15px;
-            gap: 0px;
-            height: 17px;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 17.07px;
-            text-align: center;
-
-            text-decoration-skip-ink: none;
-            font-size: 14px;
-            width: 156px;
-            gap: 0px;
-            border: none;
-
-            height: 40px;
-            margin: 40px 112px;
-            border-radius: 20px; 
-            text-align: center;
-
-
-
-            &--basic{
-                background-color: #5BB189; 
-              }
-              &--business {
-                background-color: #3A6BA5; 
-              }
-              &--webshop {
-                  background-color: #EC632A; 
-                }
-              }
-        
+      }
+  
+      &__button {
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        height: 40px;
+        width: 156px;
+        border: none;
+        border-radius: 20px;
+        margin: 40px auto 0;
+        text-align: center;
+  
+        &--basic {
+          background-color: #5bb189;
         }
+  
+        &--business {
+          background-color: #3a6ba5;
+        }
+  
+        &--webshop {
+          background-color: #ec632a;
+        }
+      }
     }
-
-    
+  }
+  
