@@ -81,7 +81,7 @@ html {
   background-color: #ec632a;
 }
 .price-card__describe {
-  margin: 40px 26px;
+  margin: 40px 22px;
   font-family: Montserrat;
   font-weight: 400;
   line-height: 18.29px;
@@ -120,6 +120,7 @@ html {
   border-radius: 20px;
   margin: 40px auto 0;
   text-align: center;
+  line-height: 17.07px;
 }
 .price-card__button--basic {
   background-color: #5bb189;
