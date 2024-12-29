@@ -28,7 +28,7 @@ body {
       text-align: center;
       padding-top: 32px;
       padding-bottom: 31px;
-      border-radius: 8px;
+
   
       &__title {
         display: flex;
@@ -41,17 +41,25 @@ body {
         line-height: 1.5; 
   
         &--big {
-          font-family: Montserrat;
-          font-size: 25px;
-          font-weight: 700;
-          margin: 0; 
+            font-family: Montserrat;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 42.67px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            
         }
   
         &--small {
-          font-family: Montserrat;
-          font-size: 20px;
-          font-weight: 300;
-          margin: 0; 
+            font-family: Montserrat;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 24.38px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            
         }
       }
   
@@ -91,9 +99,9 @@ body {
       }
   
       &__options-list {
-        list-style: none;
+        list-style: none; 
         padding: 0;
-        margin: 20px 0;
+        margin: 0;
         font-weight: 300;
         text-align: left;
         font-size: 15px;

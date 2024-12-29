@@ -25,7 +25,6 @@ body {
   text-align: center;
   padding-top: 32px;
   padding-bottom: 31px;
-  border-radius: 8px;
 }
 .price-card__title {
   display: flex;
@@ -39,15 +38,21 @@ body {
 }
 .price-card__title--big {
   font-family: Montserrat;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 700;
-  margin: 0;
+  line-height: 42.67px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .price-card__title--small {
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 300;
-  margin: 0;
+  line-height: 24.38px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .price-card__price {
   font-size: 55px;
@@ -82,7 +87,7 @@ body {
 .price-card__options-list {
   list-style: none;
   padding: 0;
-  margin: 20px 0;
+  margin: 0;
   font-weight: 300;
   text-align: left;
   font-size: 15px;
