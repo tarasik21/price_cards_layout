@@ -2,6 +2,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+p {
+  position: relative;
+  top: 2px;
+}
+
 html {
   box-sizing: border-box;
   background-color: #141b1d;
