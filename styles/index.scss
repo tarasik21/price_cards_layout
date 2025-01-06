@@ -1,161 +1,158 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-  }
-  html {
-    box-sizing: border-box;
-    background-color: #141b1d;
-  }
-  
-  .price {
-    &-page {
+  font-family: 'Montserrat', sans-serif;
+}
+html {
+  box-sizing: border-box;
+  background-color: #141b1d;
+}
+
+.price {
+  &-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding: 0;
+
+    &__container {
       display: flex;
+      gap: 18px;
       justify-content: center;
       align-items: center;
-      flex-wrap: wrap;
-      min-height: 100vh;
-      padding: 0;
-  
-      &__container {
-        display: flex;
-        gap: 18px;
-        margin-top: -1px;
-        justify-content: center;
-        align-items: center;
 
-        flex-wrap: wrap;
-        justify-content: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  &-card {
+    width: 380px;
+    background-color: #334247;
+    color: white;
+    height: 770px;
+    text-align: center;
+
+    top: 18px;
+
+
+    &__title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 67px;
+      line-height: 1.5;
+      margin-bottom: 31px;
+      margin-top: 32px;
+      padding: 0;
+
+      &--big {
+        font-family: Montserrat;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+
+      &--small {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
       }
     }
-  
-    &-card {
-      width: 380px;
-      background-color: #334247;
-      color: white;
-      height: 770px;
-      text-align: center;
 
-      top: 18px;
-  
-  
-      &__title {
+    &__price {
+      font-size: 55px;
+      height: 105px;
+      color: #fff;
+      background-color: inherit;
+      margin: 0;
+      border-radius: 5px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+
+      &--basic {
+        background-color: #5bb189;
+      }
+
+      &--business {
+        background-color: #3a6ba5;
+      }
+
+      &--webshop {
+        background-color: #ec632a;
+      }
+    }
+
+    &__describe {
+      margin: 40px 22px;
+      font-family: Montserrat;
+      font-weight: 400;
+      line-height: 18.29px;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    &__options-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-weight: 300;
+      text-align: left;
+      font-size: 15px;
+
+      li {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        text-align: center;
-        height: 67px;
-        line-height: 1.5;
-        margin-bottom: 31px;
-        margin-top: 32px;
-        padding: 0;
-  
-        &--big {
-          font-family: Montserrat;
-          font-size: 35px;
-          font-weight: 700;
-          line-height: 42px;
-          text-align: center;
-          text-underline-position: from-font;
-          text-decoration-skip-ink: none;
+        gap: 22px;
+        padding-left: 22px;
+        height: 50px;
+
+        &.price-card__options-list-odd {
+          background-color: rgba(42, 52, 56, 0.5);
         }
-  
-        &--small {
-          font-family: Montserrat;
-          font-size: 20px;
-          font-weight: 300;
-          line-height: 24px;
-          text-align: center;
-          text-underline-position: from-font;
-          text-decoration-skip-ink: none;
+
+        &.price-card__options-list-even {
+          background-color: rgba(31, 61, 99, 0);
         }
       }
-  
-      &__price {
-        font-size: 55px;
-        height: 105px;
-        color: #fff;
-        background-color: inherit;
-        margin: 0;
-        border-radius: 5px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 700;
-  
-        &--basic {
-          background-color: #5bb189;
-        }
-  
-        &--business {
-          background-color: #3a6ba5;
-        }
-  
-        &--webshop {
-          background-color: #ec632a;
-        }
+    }
+
+    &__button {
+      color: #fff;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 400;
+      height: 40px;
+      width: 156px;
+      border: none;
+      border-radius: 20px;
+      margin: 40px auto 0;
+      text-align: center;
+      line-height: 17.07px;
+
+      &--basic {
+        background-color: #5bb189;
       }
-  
-      &__describe {
-        margin: 40px 22px;
-        font-family: Montserrat;
-        font-weight: 400;
-        line-height: 18.29px;
-        font-size: 15px;
-        text-align: center;
+
+      &--business {
+        background-color: #3a6ba5;
       }
-  
-      &__options-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        font-weight: 300;
-        text-align: left;
-        font-size: 15px;
-  
-        li {
-          display: flex;
-          align-items: center;
-          gap: 22px;
-          padding-left: 22px;
-          height: 50px;
-          line-height: 18.29px;
-  
-          &.price-card__options-list-odd {
-            background-color: rgba(42, 52, 56, 0.5);
-          }
-  
-          &.price-card__options-list-even {
-            background-color: rgba(31, 61, 99, 0);
-          }
-        }
-      }
-  
-      &__button {
-        color: #fff;
-        font-family: Montserrat;
-        font-size: 14px;
-        font-weight: 400;
-        height: 40px;
-        width: 156px;
-        border: none;
-        border-radius: 20px;
-        margin: 40px auto 0;
-        text-align: center;
-        line-height: 17.07px;
-  
-        &--basic {
-          background-color: #5bb189;
-        }
-  
-        &--business {
-          background-color: #3a6ba5;
-        }
-  
-        &--webshop {
-          background-color: #ec632a;
-        }
+
+      &--webshop {
+        background-color: #ec632a;
       }
     }
   }
-  
+}
