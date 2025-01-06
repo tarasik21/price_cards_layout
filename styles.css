@@ -9,19 +9,12 @@ html {
 
 .price-page {
   display: flex;
+  gap: 18px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   min-height: 100vh;
   padding: 0;
-}
-.price-page__container {
-  display: flex;
-  gap: 18px;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 .price-card {
   width: 380px;
@@ -72,6 +65,8 @@ html {
   align-items: center;
   justify-content: center;
   font-weight: 700;
+  margin-top: -2px;
+  position: relative;
 }
 .price-card__price--basic {
   background-color: #5bb189;

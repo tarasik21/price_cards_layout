@@ -1,6 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 html {
   box-sizing: border-box;
   background-color: #141b1d;
@@ -9,21 +10,12 @@ html {
 .price {
   &-page {
     display: flex;
+    gap: 18px; 
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     min-height: 100vh;
     padding: 0;
-
-    &__container {
-      display: flex;
-      gap: 18px;
-      justify-content: center;
-      align-items: center;
-
-      flex-wrap: wrap;
-      justify-content: center;
-    }
   }
 
   &-card {
@@ -32,9 +24,7 @@ html {
     color: white;
     height: 770px;
     text-align: center;
-
     top: 18px;
-
 
     &__title {
       display: flex;
@@ -80,6 +70,9 @@ html {
       align-items: center;
       justify-content: center;
       font-weight: 700;
+      margin-top: -2px;
+      position: relative;
+
 
       &--basic {
         background-color: #5bb189;
