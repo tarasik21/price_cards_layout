@@ -24,7 +24,7 @@ html {
 .price-card {
   width: 380px;
   background-color: #334247;
-  color: white;
+  color: #fff;
   height: 770px;
   text-align: center;
   margin-top: -3px;
@@ -36,7 +36,7 @@ html {
   top: 29px;
   right: -36px;
   background-color: #DC3F45;
-  color: white;
+  color: #fff;
   font-size: 14px;
   font-weight: 700;
   padding: 5px 30px;
