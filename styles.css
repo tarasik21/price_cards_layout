@@ -28,8 +28,8 @@ html {
 }
 .price-card__label {
   position: absolute;
-  right: -38px;
-  top: 28px;
+  top: 27px;
+  right: -35px;
   background-color: #DC3F45;
   color: white;
   font-size: 14px;
@@ -100,6 +100,8 @@ html {
   line-height: 18.29px;
   font-size: 15px;
   text-align: center;
+  top: -3px;
+  position: relative;
 }
 .price-card__options-list {
   list-style: none;
