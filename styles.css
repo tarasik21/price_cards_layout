@@ -23,6 +23,7 @@ html {
   height: 770px;
   text-align: center;
   top: 18px;
+  margin-top: -3px;
 }
 .price-card__title {
   display: flex;
