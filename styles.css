@@ -100,8 +100,8 @@ html {
   line-height: 18.29px;
   font-size: 15px;
   text-align: center;
-  top: -3px;
   position: relative;
+  top: -1px;
 }
 .price-card__options-list {
   list-style: none;
