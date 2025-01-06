@@ -116,7 +116,7 @@ html {
   padding-left: 22px;
   height: 50px;
   position: relative;
-  top: -3px;
+  top: -1px;
 }
 .price-card__options-list li.price-card__options-list-odd {
   background-color: rgba(42, 52, 56, 0.5);
@@ -136,8 +136,6 @@ html {
   margin: 40px auto 0;
   text-align: center;
   line-height: 17.07px;
-  position: relative;
-  top: -3px;
 }
 .price-card__button--basic {
   background-color: #5bb189;
