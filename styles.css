@@ -28,8 +28,8 @@ html {
 }
 .price-card__label {
   position: absolute;
-  top: 27px;
-  right: -35px;
+  right: -38px;
+  top: 28px;
   background-color: #DC3F45;
   color: white;
   font-size: 14px;
